@@ -22,4 +22,10 @@ function ageCalculate() {
         years--;
         months += 12;
     }
+
+     // Update the output fields
+     document.getElementById("years").textContent = years;
+     document.getElementById("months").textContent = months;
+     document.getElementById("days").textContent = days;
+ 
 }
