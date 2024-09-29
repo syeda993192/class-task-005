@@ -12,7 +12,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0a6cf1;
+    background-color:cornflowerblue;
 }
 
 .container {
@@ -71,7 +71,7 @@ button {
     color: #ffffff;
     display: grid;
     place-items: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     box-shadow: 0 15px 20px rgba(0,0,0,0.3);
 }
 
