@@ -39,3 +39,29 @@ button{
     width: 30%;
     float: right;
 }
+
+.outputs-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.outputs-wrapper div{
+    height: 100px;
+    width: 100px;
+    background-color: #080808;
+    border-radius: 5px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+}
+p{
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
+}
