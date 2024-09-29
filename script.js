@@ -7,3 +7,8 @@ function ageCalculate() {
         alert("Please enter a valid date");
         return;
     }
+
+    let years = today.getFullYear() - birthDate.getFullYear();
+    let months = today.getMonth() - birthDate.getMonth();
+    let days = today.getDate() - birthDate.getDate();
+
