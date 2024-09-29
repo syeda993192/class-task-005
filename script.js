@@ -12,3 +12,14 @@ function ageCalculate() {
     let months = today.getMonth() - birthDate.getMonth();
     let days = today.getDate() - birthDate.getDate();
 
+      // Adjust months and days if necessary
+      if (days < 0) {
+        months--;
+        days += new Date(today.getFullYear(), today.getMonth(), 0).getDate(); // Get number of days in previous month
+    }
+
+    if (months < 0) {
+        years--;
+        months += 12;
+    }
+}
